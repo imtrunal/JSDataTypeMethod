@@ -18,4 +18,12 @@ Strings in JavaScript represent sequences of characters and are defined using si
 
 Numbers in JavaScript represent numerical data and can be integers or floating-point numbers. JavaScript numbers support various arithmetic operations and mathematical functions. The Number data type also includes methods for formatting, converting, and checking numbers.
 
+## Math Methods
+
+JavaScript's `Math` object provides a set of built-in methods for performing mathematical operations. These methods encompass various mathematical functionalities like trigonometry, exponentiation, logarithm, power, rounding, etc., allowing developers to perform complex mathematical calculations.
+
+## Date Methods
+
+The `Date` object in JavaScript facilitates handling dates and times. It provides methods for managing date-related functionalities, including obtaining the current date and time, manipulating dates, formatting dates, and performing calculations based on dates. These methods enable developers to work with dates effectively in various applications.
+
 JavaScript's flexibility and built-in methods for these data types make them fundamental building blocks for data manipulation, storage, and representation in web development and other JavaScript-based applications.
