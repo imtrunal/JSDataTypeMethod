@@ -70,7 +70,7 @@ const paddedStringEnd = padEndExampleString.padEnd(4, '0');
 console.log(paddedStringEnd);
 
 // split()
-const splitExampleString = 'Hello, World!';
+const splitExampleString = 'Hello, World!, 1, prushti';
 const splittedArray = splitExampleString.split(',');
 console.log(splittedArray);
 
@@ -86,7 +86,7 @@ console.log(startsWithHello);
 
 // endsWith()
 const endsWithExampleString = 'Hello, World!';
-const endsWithWorld = endsWithExampleString.endsWith('World!');
+const endsWithWorld = endsWithExampleString.endsWith('Hello');
 console.log(endsWithWorld);
 
 // match()

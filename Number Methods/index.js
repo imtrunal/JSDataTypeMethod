@@ -1,5 +1,5 @@
 // toFixed()
-const toFixedNumber = 12.3456;
+const toFixedNumber = 12.3456000000;
 const fixedString = toFixedNumber.toFixed(2);
 console.log(fixedString);
 
@@ -9,13 +9,13 @@ const precisionString = toPrecisionNumber.toPrecision(5);
 console.log(precisionString);
 
 // toExponential()
-const toExponentialNumber = 123.456;
-const exponentialString = toExponentialNumber.toExponential(2);
+const toExponentialNumber = 65.5578;
+const exponentialString = toExponentialNumber.toExponential(3);
 console.log(exponentialString);
 
 // parseInt()
 const parseIntString = '123';
-const parsedInt = parseInt(parseIntString, 10);
+const parsedInt = parseInt(parseIntString);
 console.log(parsedInt);
 
 // parseFloat()
@@ -38,5 +38,5 @@ console.log(primitiveValue);
 
 // toString()
 const toStringNumber = 42;
-const binaryString = toStringNumber.toString(2);
+const binaryString = toStringNumber.toString();
 console.log(binaryString);
